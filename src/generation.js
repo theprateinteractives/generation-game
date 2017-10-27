@@ -10,7 +10,7 @@ function findTemplateForId(templates, id) {
   let pastTemplateTotal = 0;
   for(let index in templates) {
     const template = templates[index];
-    if ((template.combinations - pastTemplateTotal) > id) {
+    if (template.combinations > (id - pastTemplateTotal)) {
       return [id - pastTemplateTotal, template];
     }
 
