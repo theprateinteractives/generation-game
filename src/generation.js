@@ -54,7 +54,7 @@ export default function createGeneration(templates) {
 
       const [templateId, template] = findTemplateForId(templates, generationId);
       
-      return generateTemplateString(template, templateId);
+      return { output: generateTemplateString(template, templateId), id: generationId };
     }
   }
 }
