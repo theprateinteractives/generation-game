@@ -1,6 +1,6 @@
 {
   "name": "@drafty/generation-game",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A library for composing toy text generators.",
   "repository": "git@github.com:theprateinteractives/generation-game.git",
   "author": "James Canning <james@brudil.com>",
